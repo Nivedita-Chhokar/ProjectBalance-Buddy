@@ -6,9 +6,10 @@ tech stack used - MongoDb for database handling , express and node for backend ,
 
 some screenshots to help you navigate through the user interface
 
-![Screenshot (6)](https://github.com/user-attachments/assets/4dd97f29-2aef-438f-8a67-874d5b9bd540)
-![Screenshot (7)](https://github.com/user-attachments/assets/0fe409cd-d051-4c9d-bfa3-ddd2bb39541f)
-![Screenshot (8)](https://github.com/user-attachments/assets/ac1e0e55-b1c6-471e-946f-d279b0fbb40c)
-![Screenshot (9)](https://github.com/user-attachments/assets/b7317f90-a836-48d2-a968-f5861b181dcf)
+![Screenshot (10)](https://github.com/user-attachments/assets/0e1e937d-c397-4eff-9c88-b49c1d976746)
+![Screenshot (11)](https://github.com/user-attachments/assets/d8eca760-e11f-43a3-810c-031412e5d504)
+![Screenshot (12)](https://github.com/user-attachments/assets/21da3909-84c5-418c-b91d-05e23fd1d576)
+![Screenshot (13)](https://github.com/user-attachments/assets/13cc43d1-5702-4419-ab68-c4066d355434)
+
 
 
