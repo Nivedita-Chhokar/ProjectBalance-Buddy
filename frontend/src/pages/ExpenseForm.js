@@ -28,15 +28,15 @@ function ExpenseForm({ addTransaction }) {
 
     return (
         <div className='container'>
-            <h1>Expense Tracker</h1>
+            <h1>Finance Tracker</h1>
             <form onSubmit={addExpenses}>
                 <div>
-                    <label htmlFor='text'>Expense Detail</label>
+                    <label htmlFor='text'>Transaction Detail</label>
                     <input
                         onChange={handleChange}
                         type='text'
                         name='text'
-                        placeholder='Enter your Expense Detail...'
+                        placeholder='Enter your Transaction Detail...'
                         value={expenseInfo.text}
                     />
                 </div>
