@@ -1,127 +1,165 @@
 
 *,
 ::before,
-::after{
+::after {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-label{
-  font-size: 20px;
+label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
 }
+
 
 html,
-body{
-  height: 100vh;
-  width: 100vw;
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center; 
+  background-color: #f4f6f9; 
 }
 
-.container{
-  background-color: #FFF;
-  padding: 32px 48px;
-  border-radius: 10px;
+/* Container Styling */
+.container {
+  background-color: #fff;
+  padding: 40px 48px;
+  border-radius: 12px;
   width: 100%;
-  max-width: 400px;
-  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  max-width: 450px; 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); 
 }
 
-.container > h1{
+
+.container > h1 {
+  font-size: 24px;
+  color: #2d3436;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-.container > form{
+
+.container > form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 
-.container div{
+.container div {
   display: flex;
   flex-direction: column;
 }
 
-.container input{
+.container input {
   width: 100%;
-  font-size: 20px;
-  padding: 10px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid black;
-}
-
-.container input::placeholder{
-  font-size: 12px;
-  font-style: italic;
-}
-
-button{
-  background-color: purple;
-  border: none;
-  font-size: 15px;
-  color: white;
+  font-size: 18px;
+  padding: 12px;
+  border: 1px solid #ccc;
   border-radius: 5px;
-  padding: 10px;
-  cursor: pointer;
-  margin: 10px 0;
+  outline: none;
+  transition: border-color 0.3s ease;
 }
 
-.user-section{
+.container input::placeholder {
+  font-size: 14px;
+  font-style: italic;
+  color: #aaa;
+}
+
+
+.container input:focus {
+  border-color: #6c5ce7;
+}
+
+
+button {
+  background-color: #6c5ce7;
+  border: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background-color: #5e4bc5;
+}
+
+button:active {
+  transform: scale(0.98); 
+}
+
+
+.user-section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-/* Minimal styling for the expense list */
+
 .expense-list {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
 }
 
 .expense-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .expense-description {
-  font-weight: bold;
+  font-weight: 600;
+  color: #333;
 }
 
 .delete-button {
   background-color: #e74c3c;
   color: white;
   border: none;
-  padding: 4px 7px;
-  font-size: 15px;
+  padding: 6px 12px;
+  font-size: 14px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 .delete-button:hover {
   background-color: #c0392b;
 }
 
+.delete-button:active {
+  transform: scale(0.95);
+}
+
+
 .amounts-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0;
-  font-family: Arial, sans-serif;
+  margin: 25px 0;
   font-size: 18px;
+  font-family: 'Arial', sans-serif;
 }
 
 .income-amount {
   color: #27ae60;
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.expense-amount{
-  color: #c0392b;
-  font-weight: bold;
+.expense-amount {
+  color: #e74c3c;
+  font-weight: 600;
 }
+
